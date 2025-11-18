@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Mochamad Reynaldy's</title>
+    <link rel="icon" href="image/logoaps.png" type="image/png">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Mochamad Reynaldy's</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificate" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Certifications</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+
+                <div class="nav__social">
+
+                    <a href="https://github.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" class="nav__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav__toggle burger-btn" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home" class="hero" data-text="01">
+            <div class="banner-image">
+                <div class="diamond-frame">
+                    <img src="image/FotoProfile.jpg" alt="banner" onerror="console.log('Hero image failed'); this.src='https://via.placeholder.com/250x250/FFD700/FFFFFF?text=Logo'" loading="lazy">
+                </div>
+            </div>
+            
+            <div class="banner-content" data-aos="fade-in">
+                <span class="text-muted text-uppercase">Blazing Sun</span>
+                <h1 class="banner-title display-xl lh-1 txt-fx slide-up">Mochamad Reynaldy's</h1>
+                <p class="banner-desc">
+                    Remember to look up at the stars and not down at your feet.
+                    Try to make sense of what you see and wonder about what makes the universe exist. Be curious.
+                    And however difficult life may seem, there is always something you can do and succeed at.
+                    It matters that you don’t just give up
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <section id="certificate" class="cert-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="cert-badge">
+                        <img src="image/logoaps.png" alt="Badge Icon">
+                    </div>
+                    <img src="image/la.png" alt="Google UX Certificate" class="cert-image">
+                    <h3>Security Awareness Training: Level 1 - Foundation Certificate</h3>
+                    <p class="cert-meta">Pt Aplikanusa Lintasarta | Completed: May 2023</p>
+                    <a href="assets/certs/google-ux.pdf" target="_blank" class="cert-btn">Certificate</a>
+                </div>
+
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="cert-badge">
+                        <img src="image/logoaps.png" alt="Badge Icon">
+                    </div>
+                    <img src="image/nse.png" alt="Full-Stack Certificate" class="cert-image">
+                    <h3>NSE 4 Network Security Professional</h3>
+                    <p class="cert-meta">Date of achievement: March 15, 2023</p>
+                    <p class="cert-desc">Valid until: March 15, 2025</p>
+                    <a href="assets/certs/freecodecamp-fullstack.pdf" target="_blank" class="cert-btn">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="project-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Projects & Experience</h2>
+            
+            <nav class="tabs-nav">
+                <button class="tab-btn active" data-tab="ongoing">Projects On Going & Upcoming</button>
+                <button class="tab-btn" data-tab="experience">Work Experience</button>
+            </nav>
+
+            <div class="tabs-content">
+                <div id="ongoing" class="tab-panel active">
+                    <div class="project-grid">
+                        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="project-badge">
+                                <img src="image/logoaps.png" alt="Project Badge">
+                            </div>
+                            <img src="image/project1.jpg" alt="Services" class="project-image">
+                            <h3>Up Aps, Android & iOS Mobile (On Going)</h3>
+                            <p class="project-meta">Mochamad Reynaldy's | <span id="currentDateTime"></span></p>
+                            <p class="project-desc">Demo Aps | Source Code</p>
+                            <a href="https://github.com/yourusername/demo-flutter-app" target="_blank" class="project-btn android-btn">View Details</a>
+                        </div>
+
+                        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="project-badge">
+                                <img src="image/logoaps.png" alt="Project Badge">
+                            </div>
+                            <img src="image/project1.jpg" alt="Services" class="project-image">
+                            <h3>BackBreaker, Video & Short (On Going)</h3>
+                            <p class="project-meta">Mochamad Reynaldy's | <span id="currentDateTime2"></span></p>
+                            <p class="project-desc">Demo Video | Demo Short Video</p>
+                            <a href="https://github.com/yourusername/demo-flutter-app" target="_blank" class="project-btn android-btn">View Details</a>
+                        </div>
+
+                        <div class="project-card locked-card" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="project-badge">
+                                <img src="image/logoaps.png" alt="Project Badge">
+                            </div>
+                            <div class="lock-overlay">
+                                <i class="ri-lock-line"></i>
+                                <span>Coming Soon</span>
+                            </div>
+                            <img src="image/project2.jpg" alt="Coming Soon" class="project-image">
+                            <h3>Upcoming</h3>
+                            <p class="project-meta">Upcoming</p>
+                            <p class="project-desc">Upcoming</p>
+                            <a href="#" class="project-btn" disabled>View Project (Locked)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="experience" class="tab-panel">
+                    <div class="experience-grid">
+                        <div class="experience-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="experience-badge">
+                                <img src="image/logoaps.png" alt="Experience Badge">
+                            </div>
+                            <h3>Software Engineer</h3>
+                            <p class="experience-meta">Sep 2016 - Jan 2018</p>
+                            <p class="experience-desc"> -> Build web pages requested client by using HTML, CSS and also using some framework such as ReactJS, NodeJs, Laravel</p>                                                     
+                            <p class="experience-desc"> -> Implement REST API and automatic website language transition for 2 languages.</p>                                                    
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="experience-btn">View Details</a>
+                        </div>
+
+                        <div class="experience-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="experience-badge">
+                                <img src="image/logoaps.png" alt="Experience Badge">
+                            </div>
+                            <h3>Data Entry Specialist</h3>
+                            <p class="experience-meta">Sep 2021 - Jun 2023</p>
+                            <p class="experience-desc"> -> Managing asset data</p>
+                            <p class="experience-desc"> -> Coordinated with Project Manager to make BOQ “BILL OF QUANTITIES” used by Microsoft Excell, Microsoft Word</p>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="experience-btn">View Details</a>
+                        </div>
+
+                          <div class="experience-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="experience-badge">
+                                <img src="image/logoaps.png" alt="Experience Badge">
+                            </div>
+                            <h3>Data Entry Specialist</h3>
+                            <p class="experience-meta">Jun 2023 - Aug 2024</p>
+                            <p class="experience-desc"> -> Analysis network issue & solved using Versa</p>
+                            <p class="experience-desc"> -> Testing network performance to analyze performance network and making conclusions.</p>
+                            <p class="experience-desc"> -> Trouble Shooting Network Access</p>
+                            <p class="experience-desc"> -> Monitor performance and ensure network availability and reliability</p>
+                            <p class="experience-desc"> -> Select and implement security tools, policies, firewall, and procedures in conjunction with Versa, BeyondTrust, NMS, VPN</p>
+                            <p class="experience-desc"> -> Communicated with our customer to explain network performance & network issue.</p>
+                            <p class="experience-desc"> -> Request to get permission with manager to leveling up network customers.</p>
+                            <p class="experience-desc"> -> Push VENDOR to handle problem and making SLA if VENDOR didn’t solved more than 4 hour.</p>
+                            <p class="experience-desc"> -> Coordinated with internal team to trace network issue, check ODP, Unit Area Test, install temporary network using CRM.</p>
+                            <p class="experience-desc"> -> Manage KPI Network and sending monthly report to our client</p>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="experience-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Up Aps, Android & iOS Mobile (On Going)</h2>
+            <div class="tabs-content">
+                <div class="project-grid">
+                        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="project-badge">
+                                <img src="image/logoaps.png" alt="Project Badge">
+                            </div>
+                            <img src="image/camera.gif" alt="Services" class="project-image">
+                            <h3>Camera Math Mobile Aps, Android & iOS</h3>
+                            <p class="project-meta">Tech : Flutter <span id="currentDateTime"></span></p>
+                            <p class="project-desc">Download Aps | Source Code</p>
+                            <a href="https://github.com/yourusername/demo-flutter-app" target="_blank" class="project-btn android-btn">Download Android App</a>
+                            <a href="#" class="project-btn ios-btn" disabled>Download iOS App (Coming Soon)</a>                        
+                        </div>
+
+                        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="project-badge">
+                                <img src="image/logoaps.png" alt="Project Badge">
+                            </div>
+                            <img src="image/demo.gif" alt="Report Aps" class="project-image">
+                            <h3>Report aps, Android & iOS</h3>
+                            <p class="project-meta">Tech : Flutter  <span id="currentDateTime"></span></p>
+                            <p class="project-desc">Download Aps | Source Code</p>
+                            <a href="https://github.com/yourusername/demo-flutter-app" target="_blank" class="project-btn android-btn">Download Android App</a>
+                            <a href="#" class="project-btn ios-btn" disabled>Download iOS App (Coming Soon)</a>                        
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="project-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Distribute apps permission(On Going)</h2>
+            <div class="tabs-content">
+                <div class="project-grid">
+                        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="project-badge">
+                                <img src="image/logoaps.png" alt="Project Badge">
+                            </div>
+                            <img src="image/googleplaystore.png" alt="Services" class="project-image">
+                            <h3>Google Play Store</h3>
+                            <p class="project-meta">Tech : Flutter <span id="currentDateTime"></span></p>
+                            <p class="project-desc">My Google Play Store account has been approved for app publishing, with rollout commencing in under 14 days from November 15, 2025.</p>
+                        </div>
+
+                        <div class="project-card locked-card" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="project-badge">
+                                <img src="image/logoaps.png" alt="Project Badge">
+                            </div>
+                            <div class="lock-overlay">
+                                <i class="ri-lock-line"></i>
+                                <span>Coming Soon</span>
+                            </div>
+                            <img src="image/logoappstore.png" alt="Services" class="project-image">
+                            <br><br>
+
+                            <a href="#" class="project-btn" disabled>App Store</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="backbreakervideo" class="project-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">BackBreaker, Video & Short (On Going)</h2>
+            <div class="tabs-content">
+                <div class="project-grid">
+                        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="project-badge">
+                                <img src="image/logoaps.png" alt="Project Badge">
+                            </div>
+                            <div class="video-container">
+                                <video class="project-video" controls poster="image/project1.jpg">
+                                    <source src="image/Short/short.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <h3>Short Video </h3>
+                            <p class="project-meta">Tech : Flutter <span id="currentDateTime"></span></p>
+                        </div>
+
+                        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="project-badge">
+                                <img src="image/logoaps.png" alt="Project Badge">
+                            </div>
+                            <div class="video-container">
+                                <div class="project-video">
+                                <iframe 
+                                        src="https://youtu.be/zFNaY73zizM" 
+                                        title="Full Video" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                        referrerpolicy="strict-origin-when-cross-origin"
+                                        allowfullscreen>
+                                </iframe>
+                                </div>
+                            </div>                            
+                            <h3>Full Video</h3>
+                            <p class="project-meta">Tech : Flutter  <span id="currentDateTime"></span></p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#" id="back-to-top-btn" class="back-to-top-btn">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
